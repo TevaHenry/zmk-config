@@ -26,17 +26,17 @@
                 
        		default_layer {
 		bindings = <
-        &kp Q &kp W &kp F      &kp P &kp B	&kp J &kp L &kp U 	   &kp Y 	  &kp APOS
-        &kp A &kp R &mt LALT S &kp T &kp G	&kp M &kp N &mt LGUI E &kp I 	  &kp O
-        &kp Z &kp X &kp C      &kp D &kp V 	&kp K &kp H &kp COMMA  &kp PERIOD  &kp SLASH
-                    &lt 1 ENTER &sk LSHIFT  &mt LCTL SPC &lt 2 TAB
+        &kp Q &kp W &kp F      &kp P &kp B	&kp J &kp L &kp U 	   &kp Y 	&kp APOS
+        &kp A &kp R &mt LALT S &kp T &kp G	&kp M &kp N &mt LGUI E &kp I 	&kp O
+        &kp Z &kp X &kp C      &kp D &kp V 	&kp K &kp H &kp COMMA  &kp DOT  &kp SLASH
+                    &lt 1 ENTER &sk LSHIFT  &mt LCTL SPACE &lt 2 TAB
         >;
         };
 
        		left_layer {
 		bindings = <
 		&kp ESC    &kp K_COPY  &kp K_PASTE   &kp BLSH   &kp DLLR	&kp LBRC &kp RBRC &kp UP   &kp LPRN  &kp RPRN
-		&kp K_UNDO &kp PRCT    &mt LALT COLN &kp EQUAL  &kp EXCL 	&kp AMPS &kp LEFT &kp DOWN &kp RIGHT &kp GT 
+		&kp K_UNDO &kp PRCNT   &mt LALT COLN &kp EQUAL  &kp EXCL 	&kp AMPS &kp LEFT &kp DOWN &kp RIGHT &kp GT 
 		&kp K_REDO &kp HASH    &kp SCLN      &kp GRAVE  &kp ATSN 	&kp PIPE &kp BKSP &kp LBKT &kp RBKT  &kp LT 
 					                              &mo 1 &kp LGUI  	&trans   &mo 2
 		>;
@@ -44,10 +44,10 @@
 		
 		right_layer {
 		bindings = <
-		&kp BANG  &kp ATSN  &kp UNDER &kp CARET &kp TILDE2    &kp EQL   &kp 7 &kp 8 &kp 9 &kp PLUS 
-		&kp FSLH  &kp PIPE  &kp LBKT &kp LPRN &kp LBKT 		  &kp ASTRK &kp 4 &kp 5 &kp 6 &kp MINUS
-		&kp MINUS &kp UNDER &kp RBKT &kp RPRN &kp RBKT    	  &kp 0     &kp 1 &kp 2 &kp 3 &kp SLASH
-					                    &mo 3 &kp LCTL  	  &kp SPC &mo 2 
+		&trans &kp AT &kp UNDER &kp CARET &kp TILDE2   &kp EQL  &kp 7 &kp 8 &kp 9 &kp PLUS 
+		&trans &trans &trans    &trans    &trans 	   &kp STAR &kp 4 &kp 5 &kp 6 &kp MINUS
+		&trans &trans &trans    &trans    &trans   	   &kp 0    &kp 1 &kp 2 &kp 3 &kp SLASH
+					                &mo 3 &kp LCTL     &kp SPACE &mo 2 
 		>;
 		};	
 		
