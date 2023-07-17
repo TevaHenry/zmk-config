@@ -26,28 +26,28 @@
                 
        		default_layer {
 		bindings = <
-        &kp Q &kp W &kp F &kp P &kp B	&kp J &kp L &kp U 	  &kp Y 	  &kp APOS
-        &kp A &kp R &kp S &kp T &kp G	&kp M &kp N &kp E 	  &kp I 	  &kp O
-        &kp Z &kp X &kp C &kp D &kp V 	&kp K &kp H &kp COMMA &kp PERIOD  &kp SLASH
-            	&lt 1 ENTER  &kp LSFT   &mt LCTL SPC   &lt 2 TAB
+        &kp Q &kp W &kp F      &kp P &kp B	&kp J &kp L &kp U 	   &kp Y 	  &kp APOS
+        &kp A &kp R &mt LALT S &kp T &kp G	&kp M &kp N &mt LGUI E &kp I 	  &kp O
+        &kp Z &kp X &kp C      &kp D &kp V 	&kp K &kp H &kp COMMA  &kp PERIOD  &kp SLASH
+                    &lt 1 ENTER &sk LSHIFT  &mt LCTL SPC &lt 2 TAB
         >;
         };
 
        		left_layer {
 		bindings = <
-		&kp ESC &kp AMPS &kp GRAVE &kp TILDE &trans			        &kp PG_UP  &kp HOME  &kp UP    &kp END    &caps_word
-		&kp K_COPY &kp DLLR &kp PRCT &kp CARET &kp UNDER 	        &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL 
-		&kp K_PASTE &kp K_UNDO &kp K_REDO &kp C_MUTE &kp TILDE2 	&kp MINUS &kp BKSP &kp TAB &kp ENTER &kp QMARK 
-					                            &mo 1  &kp LGUI  					&kp RGUI &mo 2 
+		&kp ESC    &kp K_COPY  &kp K_PASTE   &kp BLSH   &kp DLLR	&kp LBRC &kp RBRC &kp UP   &kp LPRN  &kp RPRN
+		&kp K_UNDO &kp PRCT    &mt LALT COLN &kp EQUAL  &kp EXCL 	&kp AMPS &kp LEFT &kp DOWN &kp RIGHT &kp GT 
+		&kp K_REDO &kp HASH    &kp SCLN      &kp GRAVE  &kp ATSN 	&kp PIPE &kp BKSP &kp LBKT &kp RBKT  &kp LT 
+					                              &mo 1 &kp LGUI  	&trans   &mo 2
 		>;
 		};
 		
 		right_layer {
 		bindings = <
-		&kp BANG  &kp ATSN  &kp HASH &kp COLN &kp SCLN    	&kp EQL   &kp 7 &kp 8 &kp 9 &kp PLUS 
-		&kp FSLH  &kp PIPE  &kp LBKT &kp LPRN &kp LBKT 		&kp ASTRK &kp 4 &kp 5 &kp 6 &kp MINUS
-		&kp MINUS &kp UNDER &kp RBKT &kp RPRN &kp RBKT    	&kp 0     &kp 1 &kp 2 &kp 3 &kp SLASH
-					                    &mo 3 &kp LCTL  	&kp SPC  &mo 2 
+		&kp BANG  &kp ATSN  &kp UNDER &kp CARET &kp TILDE2    &kp EQL   &kp 7 &kp 8 &kp 9 &kp PLUS 
+		&kp FSLH  &kp PIPE  &kp LBKT &kp LPRN &kp LBKT 		  &kp ASTRK &kp 4 &kp 5 &kp 6 &kp MINUS
+		&kp MINUS &kp UNDER &kp RBKT &kp RPRN &kp RBKT    	  &kp 0     &kp 1 &kp 2 &kp 3 &kp SLASH
+					                    &mo 3 &kp LCTL  	  &kp SPC &mo 2 
 		>;
 		};	
 		
