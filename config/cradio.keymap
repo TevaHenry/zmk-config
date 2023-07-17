@@ -35,7 +35,7 @@
 
        		left_layer {
 		bindings = <
-		&kp ESC    &kp K_COPY  &kp K_PASTE   &kp BLSH   &kp DLLR	&kp LBRC &kp RBRC &kp UP   &kp LPRN  &kp RPRN
+		&kp ESC    &kp K_COPY  &kp K_PASTE   &kp BLSH   &kp DLLR	&kp LBRC &kp RBRC &kp UP   &kp LPAR  &kp RPAR
 		&kp K_UNDO &kp PRCNT   &mt LALT COLN &kp EQUAL  &kp EXCL 	&kp AMPS &kp LEFT &kp DOWN &kp RIGHT &kp GT 
 		&kp K_REDO &kp HASH    &kp SCLN      &kp GRAVE  &kp ATSN 	&kp PIPE &kp BKSP &kp LBKT &kp RBKT  &kp LT 
 					                              &mo 1 &kp LGUI  	&trans   &mo 2
